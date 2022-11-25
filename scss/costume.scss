@@ -5,3 +5,8 @@ $primary: green;
 $navbar-dark-color: peru;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.nav-form-control {
+  background-color: $primary;
+  border-color: $light;
+}
