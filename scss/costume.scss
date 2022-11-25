@@ -1,25 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-$font-family-base: "Poppins", sans-serif;
-$primary: green;
-$navbar-dark-color: peru;
+@import "variables";
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-.nav-form-control {
-  background-color: $primary;
-  border-color: $light;
-}
-
-header {
-  background-image: url("../img/header.jpg");
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-}
-
-@include media-breakpoint-up(md) {
-  header {
-    height: 400px;
-  }
-}
+@import "index";
